@@ -4,34 +4,29 @@ import MenuItem from './components/MenuItem';
 import './menu.scss';
 
 const Menu = (props) => {
-  const menuItems = [
-    {
-      title: 'Home',
-      link: '/home',
-      customClass: ''
-    },
-    {
-      title: 'Users',
-      link: '/users',
-      customClass: ''
-    },
-    {
-      title: 'Data',
-      link: '/data',
-      customClass: ''
-    },
-    {
-      title: 'Finance',
-      link: '/finance',
-      customClass: ''
-    }
-  ];
+  const {
+    caption,
+    items
+  } = props;
 
   return (
-    <ul className="Menu">
-      {menuItems.map(item => <MenuItem key={Math.random()} item={item} />)}
-    </ul>
+    <div>
+      {
+        caption && 
+        <h3 className="Menu-caption">
+          {caption}
+        </h3>
+      }
+      <ul className="Menu">
+        {items.map(item => <MenuItem key={Math.random()} item={item} />)}
+      </ul>
+    </div>
   );
+};
+
+Menu.propTypes = {
+  caption: PropTypes.string,
+  items: PropTypes.array.isRequired
 };
 
 export default Menu;

@@ -5,3 +5,20 @@
 	padding: 1em 1.5em;
 	margin: 0 0 .5em;
 }
+
+.Header-button {
+	padding: .4em .6em;
+	border: 1px solid #0E9AA7;
+	border-radius: .3em;
+	transition: 200ms;
+
+	[class^='fa'] {
+		font-size: 80%;
+		margin-right: .6em;
+	}
+
+	&:hover {
+		background: #0E9AA7;
+		color: white;
+	}
+}

@@ -7,8 +7,9 @@ import './header.scss';
 const Header = (props) => {
   return (
     <header className="Header">
-      <Link to="/" className="Header-logo">
-        Company
+      <Link to="/" className="Header-button">
+        <i className="fa fa-chevron-left" />
+        Menu
       </Link>
 
       <UserInfo

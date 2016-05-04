@@ -6,13 +6,70 @@ import Menu from '../Menu';
 import './sidenav.scss';
 
 const SideNav = (props) => {
+  const menuItems = [
+    {
+      title: 'Home',
+      link: '/home',
+      faClass: 'fa-home'
+    },
+    {
+      title: 'Users',
+      link: '/users',
+      faClass: 'fa-user'
+    },
+    {
+      title: 'Data',
+      link: '/data',
+      faClass: 'fa-bar-chart'
+    },
+    {
+      title: 'Finance',
+      link: '/finance',
+      faClass: 'fa-bank'
+    },
+    {
+      title: 'Contact',
+      link: '/contact',
+      faClass: 'fa-envelope-o'
+    }
+  ];
+
+  const menuItems2 = [
+    {
+      title: 'Another',
+      link: '/home',
+      faClass: 'fa-phone'
+    },
+    {
+      title: 'Money',
+      link: '/users',
+      faClass: 'fa-money'
+    },
+    {
+      title: 'Stats',
+      link: '/data',
+      faClass: 'fa-bar-chart'
+    },
+    {
+      title: 'Management',
+      link: '/finance',
+      faClass: 'fa-bank'
+    }
+  ];
+
   return (
     <nav className={cx('SideNav', props.customClass)}>
 			<span className="SideNav-companyLogo">
-				CzechThat inc.
+				Bitterish inc.
 			</span>
 
-      <Menu />
+      <Menu 
+        items={menuItems}
+        caption="Pages" />
+
+      <Menu 
+        items={menuItems2}
+        caption="Management" />
     </nav>
   );
 };

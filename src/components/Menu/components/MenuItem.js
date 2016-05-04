@@ -4,14 +4,15 @@ import cx from 'classnames';
 
 const MenuItem = (props) => {
   const {
-    customClass,
+    faClass,
     link,
     title
   } = props.item;
 
   return (
-    <li className={cx('Menu-item', customClass)}>
+    <li className="Menu-item">
       <Link to={link} className="Menu-item-link">
+        {faClass && <i className={cx('fa', faClass)} />}
         {title}
       </Link>
     </li>
