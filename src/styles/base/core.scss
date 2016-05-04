@@ -25,6 +25,12 @@ section {
   display: block;
 }
 
+button {
+	background: transparent;
+	border: none;
+	cursor: pointer;
+}
+
 .Content {
 	padding: 0 1.5em;
 }

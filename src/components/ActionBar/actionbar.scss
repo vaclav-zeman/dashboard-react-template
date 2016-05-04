@@ -1,0 +1,23 @@
+.ActionBar {
+	position: fixed;
+	width: 16.66666667%;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	background: #292929;
+	padding: 0 15px;
+	justify-content: wrap;
+}
+
+.ActionBar-button {
+	flex: 1;
+	padding: 10px 0;
+	color: white;
+	opacity: 0.8;
+	font-size: 80%;
+	display: inline-block;
+
+	&:hover {
+		opacity: 1;
+	}
+}

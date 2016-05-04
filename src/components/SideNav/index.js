@@ -2,6 +2,7 @@ import React, { PropTypes } from 'react';
 import { Link } from 'react-router';
 import cx from 'classnames';
 import Menu from '../Menu';
+import ActionBar from '../ActionBar';
 
 import './sidenav.scss';
 
@@ -70,6 +71,8 @@ const SideNav = (props) => {
       <Menu 
         items={menuItems2}
         caption="Management" />
+
+      <ActionBar />
     </nav>
   );
 };

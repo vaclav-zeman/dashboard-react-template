@@ -2,8 +2,12 @@
 	height: 100vh;
 	min-height: 100%;
 	background: #333;
+	position: relative;
+	overflow: auto;
+	padding-bottom: 32px; // Height of ActionBar
 }	
 
+// This can definitely be deleted
 .SideNav-companyLogo {
 	color: #82E9F3;
 	font-weight: 300;
