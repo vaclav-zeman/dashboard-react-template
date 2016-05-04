@@ -9,6 +9,7 @@ body {
 	padding: 0;
 	margin: 0;
 	background: $body-bg;
+	height: 100%;
 }
 
 article,
@@ -22,4 +23,8 @@ menu,
 nav,
 section { 
   display: block;
+}
+
+.Content {
+	padding: 0 1.5em;
 }

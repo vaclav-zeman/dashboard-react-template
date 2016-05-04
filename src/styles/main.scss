@@ -1,6 +1,8 @@
 // Global variables
-$body-bg: #F2F2F2;
+$body-bg: #F9F9F9;
 
 // Base
 @import 'base/core';
 @import 'base/text';
+
+@import 'libs/bootstrap-grid';
