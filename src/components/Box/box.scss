@@ -4,6 +4,18 @@
 	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
 	padding: 1em;
 	position: relative;
+	animation: slideIn 400ms;
+}
+
+@keyframes slideIn {
+	from {
+		transform: translate(0, 10%);
+		opacity: 0.3;
+	}
+	to {
+		transform: translate(0, 0);
+		opacity: 1;
+	}
 }
 
 .Box--blue {
