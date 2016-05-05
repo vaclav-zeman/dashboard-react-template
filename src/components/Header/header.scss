@@ -12,7 +12,7 @@
 	border-radius: .3em;
 	transition: 200ms;
 
-	[class^='fa'] {
+	[class^='fa'] { // Font Awesome icons
 		font-size: 80%;
 		margin-right: .6em;
 	}
@@ -21,4 +21,11 @@
 		background: #0E9AA7;
 		color: white;
 	}
+}
+
+.Header-pageTitle {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #666;
+  font-weight: normal;
 }

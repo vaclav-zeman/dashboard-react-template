@@ -12,9 +12,13 @@ const Header = (props) => {
         Menu
       </Link>
 
+      <h1 className="Header-pageTitle">
+        Dashboard
+      </h1>
+
       <UserInfo
         image="http://loremflickr.com/60/60"
-        userName="John Doe" 
+        userName="Václav Zeman" 
       />
     </header>
   );
