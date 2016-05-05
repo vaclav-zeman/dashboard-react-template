@@ -26,12 +26,33 @@
   }
 }
 
-.Menu-item-link,
-.Menu-item {
+.Menu-item-link {
   color: rgba(255, 255, 255, 0.7);
-  transition: color 300ms;
+  transition: color 300ms, transform 200ms;
+  display: block;
 
   &:hover {
     color: #fff;
   }
+
+  &:hover .Menu-item-count {
+    background: #e74c3c;
+  }
+
+  &:active {
+    transform: scale(0.98);
+  }
+}
+
+.Menu-item-count {
+  display: inline-block;
+  vertical-align: baseline;
+  padding: 3px 3px 3px 3px;
+  margin: .2em 0 0 1em;
+  line-height: 1;
+  border-radius: 20%;
+  background: #616060;
+  font-size: 75%;
+  float: right;
+  transition: background 200ms;
 }
