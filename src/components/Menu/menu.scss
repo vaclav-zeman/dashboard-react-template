@@ -16,7 +16,6 @@
 
 .Menu-item {
   list-style: none;
-  padding: .5em 0;
   margin: 0;
   font-size: .95rem;
 
@@ -30,10 +29,11 @@
   color: rgba(255, 255, 255, 0.7);
   transition: color 300ms, transform 200ms;
   display: block;
-  padding: 0 15px 0 30px;
+  padding: .5em 15px .5em 30px;
 
   &:hover {
     color: #fff;
+    background: #3E3E3E;
   }
 
   &:hover .Menu-item-count {
