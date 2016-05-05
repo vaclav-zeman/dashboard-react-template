@@ -56,14 +56,20 @@ const Dashboard = (props) => {
 
       <div className="row">
         <div className="col-md-3">
-          <Box>
-            <h2>Chart #3</h2>
+          <Box className="ChartBox">
+            <h2 className="ChartBox-title">
+              Chart #3
+            </h2>
+
           </Box>
         </div>
 
         <div className="col-md-9">
-          <Box>
-            <h2>Chart #4</h2>
+          <Box className="ChartBox">
+            <h2 className="ChartBox-title">
+              Chart #4
+            </h2>
+
           </Box>
         </div>
       </div>

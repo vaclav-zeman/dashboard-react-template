@@ -1,5 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 import Box from '../../../components/Box/';
+import formatMoney from '../../../utils/format';
 
 const SummaryBoxRow = (props) => {
   const {
@@ -32,7 +33,7 @@ const SummaryBoxRow = (props) => {
           </h2>
           
           <strong className="SummaryBox-value">
-           {'$'} {profit || 0}
+           {'$'} {formatMoney(profit) || 0}
           </strong>
 
           <i className="SummaryBox-icon fa fa-dollar" />
