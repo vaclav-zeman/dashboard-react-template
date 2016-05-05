@@ -12,7 +12,7 @@ const Header = (props) => {
       </button>
 
       <h1 className="Header-pageTitle">
-        Dashboard
+        {props.title}
       </h1>
 
       <UserInfo
@@ -21,6 +21,10 @@ const Header = (props) => {
       />
     </header>
   );
+};
+
+Header.propTypes = {
+  title: PropTypes.string.isRequired
 };
 
 export default Header;

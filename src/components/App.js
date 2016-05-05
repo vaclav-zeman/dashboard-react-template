@@ -3,7 +3,9 @@ import Header from './Header/';
 import SideNav from './SideNav/';
 
 class App extends Component {
-  render() {
+  render() {    
+    const pageTitle = this.props.children.props.route.title || '';
+
     return (
       <div className="container-fluid">
         <div className="row">
@@ -11,7 +13,7 @@ class App extends Component {
           <SideNav />
 
           <div className="col-md-10 pull-right">
-            <Header />
+            <Header title={pageTitle} />
             
             <main className="Content">
               {this.props.children}
