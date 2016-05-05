@@ -18,6 +18,11 @@ const Header = (props) => {
       <UserInfo
         image="http://loremflickr.com/60/60"
         userName="Václav Zeman" 
+        notifications={[
+          {title: 'Added new product'},
+          {title: 'Added new product'},
+          {title: 'Added new product'}
+        ]}
       />
     </header>
   );

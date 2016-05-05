@@ -2,14 +2,21 @@ import React, {PropTypes} from 'react';
 import './user-info.scss';
 
 const UserInfo = (props) => {
+	const count = props.notifications ? props.notifications.length : false;
+
   return (
 		<div className="UserInfo">
-			<button className="UserInfo-notifications">
-				<i className="fa fa-bell-o" />
-				<span className="UserInfo-notifications-count">
-					6
-				</span>
-			</button>
+			
+				<button className="UserInfo-notifications">
+					<i className="fa fa-envelope-o" />
+					{ 
+						count && 
+						<span className="UserInfo-notifications-count">
+							{count}
+						</span>
+					}
+				</button>
+			
 
 			<img 
 				className="UserInfo-image" 
@@ -25,7 +32,8 @@ const UserInfo = (props) => {
 
 UserInfo.propTypes = {
 	image: PropTypes.string.isRequired,
-  userName: PropTypes.string.isRequired
+  userName: PropTypes.string.isRequired,
+  notifications: PropTypes.array
 };
 
 export default UserInfo;

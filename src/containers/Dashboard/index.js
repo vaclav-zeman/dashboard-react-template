@@ -32,6 +32,12 @@ const Dashboard = (props) => {
               width={"100%"} 
               height={"300px"} 
             /> 
+
+            <div className="Box-settings">
+              <button className="fa fa-wrench"></button>
+              <button className="fa fa-close"></button>
+              <button className="fa fa-chevron-up"></button>
+            </div>
           </Box>
         </div>
 
@@ -52,6 +58,12 @@ const Dashboard = (props) => {
               width={"100%"} 
               height={"300px"} 
             /> 
+
+            <div className="Box-settings">
+              <button className="fa fa-wrench"></button>
+              <button className="fa fa-close"></button>
+              <button className="fa fa-chevron-up"></button>
+            </div>
           </Box>
         </div>
       </div>
@@ -60,7 +72,7 @@ const Dashboard = (props) => {
         <div className="col-md-4">
           <Box className="ChartBox">
             <h2 className="ChartBox-title">
-              Quick Settings
+              Quick settings
             </h2>
           </Box>
         </div>
@@ -78,6 +90,12 @@ const Dashboard = (props) => {
               width={"100%"} 
               height={"300px"} 
             /> 
+
+            <div className="Box-settings">
+              <button className="fa fa-wrench"></button>
+              <button className="fa fa-close"></button>
+              <button className="fa fa-chevron-up"></button>
+            </div>
           </Box>
         </div>
       </div>
