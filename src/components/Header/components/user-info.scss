@@ -15,3 +15,21 @@
 .UserInfo-name {
 	cursor: pointer;
 }
+
+.UserInfo-notifications {
+	font-size: 1.1em;
+	position: relative;
+	margin-right: 30px;
+}
+
+.UserInfo-notifications-count {
+	font-size: 0.6em;
+	position: absolute;
+	top: -5px;
+	right: -1.5px;
+	border-radius: 30%;
+	padding: 3px 5px;
+	line-height: 1;
+	background: #ea6153;
+	color: white;
+}
