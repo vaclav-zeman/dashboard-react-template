@@ -6,7 +6,7 @@ import './box.scss';
 // Content box
 const Box = (props) => {
   return (
-    <section className={cx('Box', props.customClass)}>
+    <section className={cx('Box', props.className)}>
       {props.children}
     </section>
   );
@@ -14,7 +14,7 @@ const Box = (props) => {
 
 Box.propTypes = {
   children: PropTypes.element,
-  customClass: PropTypes.string
+  className: PropTypes.string
 };
 
 export default Box;

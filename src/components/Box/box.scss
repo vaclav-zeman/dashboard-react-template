@@ -3,4 +3,45 @@
 	border: 1px solid #F3F3F3;
 	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
 	padding: 1em;
+	position: relative;
+}
+
+.Box--blue {
+	background: lighten(#0E9AA7, 10%);
+}
+
+.Box--red {
+	background: lighten(#e74c3c, 5%);
+}
+
+.Box--green {
+	background: lighten(#2ecc71, 5%);
+}
+
+.Box--orange {
+	background: lighten(#e67e22, 10%);
+}
+
+.SummaryBox {
+	padding: .5em 1em;
+}
+
+.SummaryBox-title {
+	margin: 0;
+	color: white;
+	font-size: 1rem;
+	font-weight: normal;
+}
+
+.SummaryBox-value {
+	color: white;
+	font-size: 1.6rem;
+}
+
+.SummaryBox-icon {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 1.3rem !important;
 }

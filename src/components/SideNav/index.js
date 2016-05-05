@@ -9,14 +9,15 @@ import './sidenav.scss';
 const SideNav = (props) => {
   const menuItems = [
     {
-      title: 'Home',
-      link: '/home',
-      faClass: 'fa-home'
+      title: 'Dashboard',
+      link: '/',
+      faClass: 'fa-dashboard'
     },
     {
       title: 'Users',
       link: '/users',
-      faClass: 'fa-user'
+      faClass: 'fa-users',
+      count: 15
     },
     {
       title: 'Data',
@@ -29,9 +30,10 @@ const SideNav = (props) => {
       faClass: 'fa-bank'
     },
     {
-      title: 'Contact',
-      link: '/contact',
-      faClass: 'fa-envelope-o'
+      title: 'Messages',
+      link: '/messages',
+      faClass: 'fa-envelope-o',
+      count: 253
     }
   ];
 

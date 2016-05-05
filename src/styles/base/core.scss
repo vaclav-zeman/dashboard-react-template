@@ -33,4 +33,8 @@ button {
 
 .Content {
 	padding: 0 1.5em;
+
+	.row + .row {
+		margin-top: 30px;
+	}
 }
