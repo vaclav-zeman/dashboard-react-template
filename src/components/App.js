@@ -8,9 +8,9 @@ class App extends Component {
       <div className="container-fluid">
         <div className="row">
 
-          <SideNav customClass="col-md-2" />
+          <SideNav />
 
-          <div className="col-md-10">
+          <div className="col-md-10 pull-right">
             <Header />
             
             <main className="Content">
