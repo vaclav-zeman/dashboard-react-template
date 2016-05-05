@@ -49,12 +49,12 @@ const SideNav = (props) => {
     {
       title: 'Stats',
       link: '/data',
-      faClass: 'fa-bar-chart'
+      faClass: 'fa-briefcase'
     },
     {
       title: 'Management',
       link: '/finance',
-      faClass: 'fa-bank'
+      faClass: 'fa-book'
     }
   ];
 
