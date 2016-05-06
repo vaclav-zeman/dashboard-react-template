@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700&subset=latin-ext,latin);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700&subset=latin-ext,latin);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css);
 
 html {
 	font-family: 'Lato', sans-serif;
@@ -6,17 +7,41 @@ html {
 	line-height: 1.5;
 }
 
+hr {
+	display: block;
+	width: 100%;
+	clear: both;
+	margin: 2em 0;
+	border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
 a {
-	color: #0E9AA7;
+	color: $blue;
 	text-decoration: none;
 
 	&:active {
-
+		color: darken($blue, 2%);
 	}
 
 	&:hover {
-
+		color: lighten($blue, 6%);
 	}
 }
 
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css);
+.Content ul > li {
+	position: relative;
+	list-style: none;
+
+	&:before {
+		content: "";
+		display: block;
+		position: absolute;
+		left: -1em; top: .6em;
+		width: 5px; height: 5px;
+		border-radius: 1px;
+		background: $blue;
+	}
+}

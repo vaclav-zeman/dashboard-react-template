@@ -16,7 +16,7 @@ const Dashboard = (props) => {
         <div className="col-md-7">
           <Box className="ChartBox">
             <h2 className="ChartBox-title">
-              Company performance
+              Bussiness results
             </h2>
             
             <Chart 

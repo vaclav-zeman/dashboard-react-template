@@ -32,6 +32,7 @@ button {
 }
 
 .Content {
+	perspective: 1000px;
 	padding: 0 1.5em 35px;
 
 	.row + .row {

@@ -1,0 +1,33 @@
+.DataTable {
+	width: 100%;
+	background: white;
+	margin: 0 0 20px;
+	border-collapse: collapse;
+	font-size: 0.9em;
+
+	caption {
+		text-align: left;
+		font-weight: bold;
+		font-size: 1.1em;
+		border-bottom: 1px dashed #ccc;
+		padding-bottom: 7px;
+		margin-bottom: 7px;
+	}
+
+	tr:not(:only-child) td {
+		border-bottom: 1px solid #f2f2f2;
+	}
+
+	tr:nth-child(even) td {
+		background: #f8f8f8;
+	}
+
+	td:first-child {
+		width: 50px;
+	}
+
+	td, th {
+		text-align: left;
+		padding: .35em .5em;
+	}
+}
