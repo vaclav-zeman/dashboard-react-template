@@ -18,6 +18,13 @@ hr {
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+h1,
+h2, 
+h3, 
+h4 {
+	color: $heading-color;
+}
+
 a {
 	color: $blue;
 	text-decoration: none;
@@ -51,4 +58,9 @@ a {
 	height: auto;
 	box-shadow: 1px 2px 4px rgba(0,0,0,0.1);
 	border: 1px solid rgba(0,0,0,0.1);
+}
+
+.Content h1:first-child,
+.Content h2:first-child {
+	margin-top: 0;
 }

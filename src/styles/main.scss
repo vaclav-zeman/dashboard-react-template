@@ -1,9 +1,11 @@
 // Global variables
 $body-bg: #F9F9F9;
+$heading-color: #2B2B2B;
 $blue: #0E9AA7;
 
 // Base
 @import 'base/core';
 @import 'base/text';
+@import 'base/form';
 
 @import 'libs/bootstrap-grid';
