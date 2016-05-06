@@ -1,7 +1,18 @@
 import React, { Component, PropTypes } from 'react';
 import Box from '../../components/Box';
+import DataTable from '../../components/DataTable';
 
 const Messages = (props) => {
+	const exampleData = {
+    titles: ['ID', 'Name', 'Address', 'Country', 'E-mail'],
+    data: [
+      [1, 'Charles Johnson', 'Mackenzie 14', 'United States', 'a@jognson.com'],
+      [2, 'Carrie Johnson', 'Mackenzie 25', 'United States', 'carrie@johnson.com'],
+      [3, 'Margaret Johnson', 'Low Reed 152', 'Canada', 'spam@gmail.com'],
+      [4, 'Mark Johnson', 'Popocatepetel', 'Costa Rica', 'costa@rica.com']
+    ]
+  };
+
   return (
     <div>
       <Box>
@@ -11,12 +22,12 @@ const Messages = (props) => {
 				<div className="row">
 					<form className="Form col-md-5">
 						<div className="Form-control">
-							<input className="Form-field" type="text" placeholder="Name (required)" />
-							<span className="Form-error">Name is required</span>
+							<input className="Form-field" type="text" placeholder="E-mail (required)" />
+							<span className="Form-error">E-mail is required</span>
 						</div>
 
 						<div className="Form-control">
-							<input className="Form-field" type="text" placeholder="Surname (required)" />
+							<input className="Form-field" type="text" placeholder="Name (required)" />
 						</div>
 
 						<div className="Form-control">
@@ -45,6 +56,10 @@ const Messages = (props) => {
 							<input className="Form-button" type="submit" value="Send" />
 						</div>
 					</form>
+
+					<div className="col-md-7">
+						<DataTable data={exampleData} />
+					</div>
 				</div>
       </Box>
     </div>

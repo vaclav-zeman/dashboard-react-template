@@ -16,8 +16,14 @@ const SideNav = (props) => {
     {
       title: 'Users',
       link: '/users',
-      faClass: 'fa-users',
-      count: 15
+      faClass: 'fa-users', // Font awesome class
+      count: 15 // Notification count
+    },
+    {
+      title: 'Messages',
+      link: '/messages',
+      faClass: 'fa-envelope-o',
+      count: 253
     },
     {
       title: 'Data',
@@ -28,12 +34,6 @@ const SideNav = (props) => {
       title: 'Finance',
       link: '/finance',
       faClass: 'fa-bank'
-    },
-    {
-      title: 'Messages',
-      link: '/messages',
-      faClass: 'fa-envelope-o',
-      count: 253
     }
   ];
 
