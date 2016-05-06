@@ -22,18 +22,6 @@
 	margin-right: 15px;
 }
 
-@keyframes shake {
-	0% {
-		transform: scale(1)
-	}
-	50% {
-		transform: scale(0.97)
-	}
-	100% {
-		transform: scale(1)
-	}
-}
-
 .UserInfo-notifications-count {
 	font-size: 0.6em;
 	position: absolute;
@@ -44,6 +32,9 @@
 	line-height: 1;
 	background: #ea6153;
 	color: white;
-	animation: shake 1s infinite;
-	animation-delay: 3s;
+	transition: transform 300ms;
+
+	&:hover {
+		transform: scale(1.08);
+	}
 }
