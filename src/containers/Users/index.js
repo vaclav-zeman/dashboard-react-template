@@ -31,6 +31,8 @@ const Users = (props) => {
           pulvinar facilisis. Ut felis.
         </p>
 
+        <img src="http://lorempixel.com/400/200/" alt="Random image" />
+
         <ol>
            <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
            <li>Aliquam tincidunt mauris eu risus.</li>
