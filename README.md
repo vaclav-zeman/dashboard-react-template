@@ -2,10 +2,9 @@
 This is an administration dashboard template made with React.js in ES6 JavaScript (using Babel as transpiler).
 That means there are reusable components and one-way reactive data flow is already implemented.
 
-Dashboard:
 ![Screenshot of the template](http://vaclavzeman.com/files/upload/dashboard.png)
-[Screenshot 2 - example form and a table](http://vaclavzeman.com/files/upload/dashboard2.png)
-[Screenshot 3 - typography](http://vaclavzeman.com/files/upload/typography.png)
+- [Screenshot 2 - example form and a table](http://vaclavzeman.com/files/upload/dashboard2.png)
+- [Screenshot 3 - typography](http://vaclavzeman.com/files/upload/typography.png)
 
 # Libraries
 	- React.js
