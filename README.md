@@ -37,7 +37,8 @@ If you experience any trouble running the app, please look at the link above bef
 This template is still work in progress. There are many things to be done such as:
 	- add tests
 	- test support on older browsers
-	- add more UI elements - tooltips, user popover, buttons
+	- add more UI elements - tooltips, user popover, buttons, more meaningful boxes to the dashboard
+	- add Quick Settings box content
 	- add optional action buttons to the DataTable
 	- add UI responsiveness
 	- refactor forms to be modular (make fields components etc.)
