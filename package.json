@@ -1,7 +1,7 @@
 {
   "name": "dashboard-template",
   "version": "0.0.1",
-  "description": "Dashboard administration template",
+  "description": "Dashboard react template",
   "scripts": {
     "start-message": "babel-node tools/startMessage.js",
     "prestart": "npm-run-all --parallel start-message remove-dist lint:tools",
