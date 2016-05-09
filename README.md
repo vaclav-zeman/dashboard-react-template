@@ -30,7 +30,8 @@ npm install
 npm start
 ```
 
-The template skeleton comes from [React Slingshot](https://github.com/coryhouse/react-slingshot)
+The template skeleton comes from [React Slingshot](https://github.com/coryhouse/react-slingshot).
+
 If you experience any trouble running the app, please look at the link above before asking here.
 
 # TODOs
